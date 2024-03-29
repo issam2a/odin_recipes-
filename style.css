@@ -1,9 +1,13 @@
+*{
+    outline: 2px solid red;
+}
+
 body {
     background-color: rgb(50, 131, 202);
 }
 .img.index{
     width: 350px;
-
+    margin: 0 auto;
 }
 .img.ChildPage{
     width: 500px;
@@ -29,4 +33,9 @@ p {
     font-weight: 500;
     font-size: 19px;
 
+}
+
+.IndexDiv .img.index{
+    display: flex;
+    flex: 1;
 }
