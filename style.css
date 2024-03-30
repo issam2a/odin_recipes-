@@ -8,6 +8,7 @@ body {
 .img.index{
     width: 350px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 .img.ChildPage{
     width: 500px;
@@ -37,5 +38,27 @@ p {
 
 .IndexDiv .img.index{
     display: flex;
-    flex: 1;
+    flex: none;
+   
+}
+.SubImages{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+  
+}
+.SubImages .index{
+    max-width: 350px;
+    max-height: 300px;
+    flex: auto;
+
+}
+.SubImagesDiv {
+display: flex;
+flex-direction: column;
+align-items: center;
+flex: 1;
+
 }
